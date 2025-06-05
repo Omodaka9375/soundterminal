@@ -4,7 +4,7 @@ samples = samples/
 [song]
 bpm = 124
 ticks = 4
-patterns = pat1
+patterns = 1
 
 [samples]
 bassdrum = 909_bass_drum.wav
@@ -19,6 +19,6 @@ ride = 909_ride.wav
 rimshot = 909_rimshot.wav
 snaredrum = 909_snare_drum.wav
 
-[pattern.pat1]
+[pattern.1]
 bassdrum = x...x...x...x...
 

@@ -1,5 +1,5 @@
 """
-Global patterns for the generating random drums.
+Global patterns for the generating random bar hits.
 
 """
 # .... .... .... ....
