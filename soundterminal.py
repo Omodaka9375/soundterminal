@@ -737,7 +737,7 @@ class Repl(cmd.Cmd):
             oldpattern, newpattern = argsy
             self.song.patterns[newpattern] = self.song.patterns[oldpattern].copy()
             # add new pattern to sequence
-            self.song.pattern_sequence.append(newpattern)
+            # self.song.pattern_sequence.append(newpattern)
             print('__________________________________\n')
             print("Patterns:")
             print('__________________________________\n')
@@ -759,7 +759,7 @@ class Repl(cmd.Cmd):
             # merge content from two pattern to another newly created
             self.song.patterns[newpat] = self.song.patterns[pat1] | self.song.patterns[pat2]
             # add new pattern to sequence
-            self.song.pattern_sequence.append(newpat)
+            # self.song.pattern_sequence.append(newpat)
             print('__________________________________\n')
             print("Patterns:")
             print('__________________________________\n')

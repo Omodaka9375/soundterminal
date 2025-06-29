@@ -60,7 +60,11 @@ Add samples to project:
 Add empty pattern:
 ``` new patternname ```
 
-Copy pattern: ``` copy 1 2 ```
+Copy pattern: 
+``` copy 1 2 ```
+
+Delete pattern: 
+``` del 1 ```
 
 Play sequence:
 ``` play ```
@@ -68,7 +72,8 @@ Play sequence:
 Play pattern:
 ``` playp 2 4 ```
 
-Play sample: ``` plays bass ```
+Play sample: 
+``` plays bass ```
 
 Play sample in a bar:
 ``` plays bass x... x... x... xx.. ```
@@ -111,6 +116,9 @@ Add sample bar in pat1:
 
 Merge two patterns into a new pattern:
 ``` merge 1 2 ```
+
+Save project:
+``` save (projectname) ```
 
 Export to file:
 ``` export trackname ```
