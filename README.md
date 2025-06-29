@@ -1,4 +1,4 @@
-# SoundTerminal
+# SoundTerminal v1.0
 
 SoundTerminal is a Python application that allows you to create some beats in terminal using ASCII characters and some samples.
 
@@ -60,33 +60,57 @@ Add samples to project:
 Add empty pattern:
 ``` new patternname ```
 
-Copy pattern: ``` copy pat1 pat2 ```
+Copy pattern: ``` copy 1 2 ```
 
 Play sequence:
 ``` play ```
 
 Play pattern:
-``` playp pat2 pat4 ```
+``` playp 2 4 ```
 
 Play sample: ``` plays bass ```
 
 Play sample in a bar:
 ``` plays bass x... x... x... xx.. ```
 
+List all samples in project:
+``` samples ```
+
+Remove sample from project:
+``` samples hihat ```
+
+Remove sample from given patter:
+``` samples hihat 3 ```
+
+Sync sample to project bpm with timestretch, no pitch change:
+``` samples hihat t ```
+
+Sync sample to arbitraty bpm with timestretch, no pitch change
+``` samples hihat t 125 ``` 
+
+Pitchshift a sample by semitones:
+``` samples hihat p +2 ```
+
 Show sequence:
 ``` seq ```
 
 Arrange sequence:
-``` seq pat1 pat1 pat2 pat2 pat3 pat5 ```
+``` seq 112235 ```
 
 Generate a random bar in pattern:
-``` edit pat1 clap gen ```
+``` edit 1 clap gen ```
 
 Remove sample from pattern:
-``` edit pat1 clap ```
+``` edit 1 clap ```
+
+Swap samples from pattern:
+``` edit 1 clap clap2 ```
 
 Add sample bar in pat1:
-``` edit pat1 clap x... xx.. xx.. x... ```
+``` edit 1 clap x... xx.. xx.. x... ```
+
+Merge two patterns into a new pattern:
+``` merge 1 2 ```
 
 Export to file:
 ``` export trackname ```
